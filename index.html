@@ -1,178 +1,94 @@
 <!DOCTYPE html>
-<html lang="pt">
-  <head>
-    <meta charset="UTF-8" />
-    <style>
-      @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
-
-      html,
-      body {
-        margin: 0 !important;
-        padding: 0 !important;
-        background-color: #edf6f8;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-flex-direction: column;
-        flex-direction: column;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-align-items: center;
-        align-items: center;
-      }
-    </style>
-  </head>
-  <body>
-    <div
-     
-    >
-      <div>
-        
-      </div>
-      <div >
-        <div
-          style="
-            width: 940px;
-            height: 640px;
-            display: -webkit-flex;
-            display: flex;
-            -webkit-flex-direction: column;
-            flex-direction: column;
-            -webkit-align-items: center;
-            align-items: center;
-          "
-        >
-          <div
-            style="
-              width: 90%;
-              height: 120px;
-              display: -webkit-flex;
-              display: flex;
-              -webkit-flex-direction: row;
-              flex-direction: row;
-              justify-content: space-between;
-            "
-          >
-            <div style="width: 640px; height: 100%"></div>
-            <div
-              style="
-                height: 100%;
-                display: -webkit-flex;
-                display: flex;
-                -webkit-flex-direction: column;
-                flex-direction: column;
-                -webkit-justify-content: center;
-                justify-content: center;
-                -webkit-align-items: center;
-                align-items: center;
-              "
-            >
-             
-            </div>
-          </div>
-          <div style="width: 100%; height: 130px"></div>
-          <div
-            style="
-              width: 100%;
-              height: 150px;
-              text-align: center;
-              font-family: sans-serif;
-              text-transform: uppercase;
-              color: #5ab5d6;
-            "
-          >
-            <img src="{{imageBadge}}"/>
-            <p style="font-size: 18px; font-weight: 650; margin-bottom: 5px !important; margin-top: 0px !important">
-              Certificamos que
-            </p>
-            <p style="font-size: 32px; font-weight: 700; margin: 20px !important">{{username}}</p>
-            <p style="font-size: 18px; font-weight: 650; margin: 15px !important">
-              Concluiu a
-              <span style="font-size: 26px; font-weight: 500; margin: 0 !important"> trilha teste, </span> e ganhou a badge
-              {{badgeName}},
-            </p>
-            <p style="font-size: 18px; font-weight: 650; margin: 15px !important">
-              com carga horária de {{workload}} e id {{certificateId}}
-            </p>
-            
-          </div>
-          <div style="width: 100%; height: 110px"></div>
-          <div style="width: 100%; height: 170px">
-            <div
-              style="
-                width: 100%;
-                height: 100%;
-                display: -webkit-flex;
-                display: flex;
-                -webkit-flex-direction: row;
-                flex-direction: row;
-              "
-            >
-              <div
-                style="
-                  width: 370px;
-                  height: 100%;
-                  display: -webkit-flex;
-                  display: flex;
-                  -webkit-flex-direction: column;
-                  flex-direction: column;
-                  -webkit-justify-content: center;
-                  justify-content: center;
-                  text-align: left;
-                  margin-left: 20px;
-                  color: #5ab5d6;
-                  text-transform: uppercase;
-                "
-              >
-                <p
-                  style="
-                    font-family: 'Dancing Script';
-                    text-transform: capitalize;
-                    margin-top: 0px !important;
-                    font-size: 26px;
-                    margin-bottom: 0px !important;
-                  "
-                >
-                  {directorSignature}
-                </p>
-                <div style="height: 3px; width: 100%; color: #d28376; background-color: #d28376"></div>
-                <p style="font-size: 26px; font-weight: 600; margin: 0 !important">{directorName}</p>
-                <p style="font-size: 16px; font-weight: 500; margin: 0 !important">Diretor da escola</p>
-              </div>
-              <div
-                style="
-                  width: 370px;
-                  height: 100%;
-                  display: -webkit-flex;
-                  display: flex;
-                  -webkit-flex-direction: column;
-                  flex-direction: column;
-                  -webkit-justify-content: center;
-                  justify-content: center;
-                  text-align: left;
-                  margin-left: 160px;
-                  color: #5ab5d6;
-                  text-transform: uppercase;
-                "
-              >
-                <p
-                  style="
-                    font-family: 'Dancing Script';
-                    text-transform: capitalize;
-                    margin-top: 0px !important;
-                    font-size: 26px;
-                    margin-bottom: 0px !important;
-                  "
-                >
-                  {appDirectorSignature}
-                </p>
-                <div style="height: 3px; width: 100%; color: #d28376; background-color: #d28376"></div>
-                <p style="font-size: 26px; font-weight: 600; margin: 0 !important">{appDirectorName}</p>
-                <p style="font-size: 16px; font-weight: 500; margin: 0 !important">Diretor geral do programa pleno</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width" />
+<title>ANBIMA Edu - Certificação de Conclusão</title>
+<style type="text/css">
+{
+	font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+	p{font-family: Calibri, Arial, Helvetica, sans-serif; color: #ffffff;}
+	
+</style>
+</head>
+<body>
+	<center>
+<div>
+<table border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#00b1d3;" style="background-color: #00b1d3;">
+  	<tr>
+    	<td valign="top" style="line-height:0px; font-size:0px; margin:0px;">
+			<table height="150px" border="0" cellspacing="0" cellpadding="0" align="center">
+				<tr>
+					<td align="center" style="line-height:0px; font-size:0px; margin:0px;"><img src="https://www.anbima.com.br/data/files/9F/E2/D6/42/4C7E7810F8A36978EA2BA2A8/_pixel.png" height="150px"></td>
+				</tr>
+			</table>
+			<table height="83px;" border="0" cellspacing="0" cellpadding="0" align="center">
+				<tr>
+					<td align="center"><br/><br/><p style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size:30px; line-height:normal; color:#FFFFFF;">Parabéns,<br /> <font style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size:35px; line-height:normal; color:#FFFFFF;"><strong>{{username}}</strong>.</font></p>
+					</td>
+				</tr>
+			</table>
+			<table height="10px" border="0" cellspacing="0" cellpadding="0" align="center">
+				<tr>
+					<td align="center" style="line-height:0px; font-size:0px; margin:0px;"><img src="https://www.anbima.com.br/data/files/9F/E2/D6/42/4C7E7810F8A36978EA2BA2A8/_pixel.png" width="15" height="10px" alt=""></td>
+				</tr>
+			</table>
+					<table height="82px" border="0" cellspacing="0" cellpadding="0" align="center">
+				<tr>
+					<td align="center" style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size:30px; line-height:30px; line-height:normal; color:#FFFFFF;">Você conquistou a badge da microcertificação:&nbsp; &nbsp; <br class="hideThis">
+						<strong style="font-size: 35px; line-height:normal; color:#FFFFFF;">{{badgeName}.</strong>
+					</td>
+				</tr>
+			</table>
+			<table height="40px" border="0" cellspacing="0" cellpadding="0" align="center">
+				<tr>
+					<td align="center" style="line-height:0px; font-size:0px; margin:0px;"><img src="https://www.anbima.com.br/data/files/9F/E2/D6/42/4C7E7810F8A36978EA2BA2A8/_pixel.png" width="15" height="40" alt=""></td>
+				</tr>
+			</table>
+			<table height="300px" border="0" cellspacing="0" cellpadding="0" align="center">
+				<tr>
+					<td width="450px" align="center" style="line-height:0px; font-size:0px; margin:0px;"><center><img src="https://www.anbima.com.br/data/files/F7/93/78/82/987E7810F8A36978EA2BA2A8/Certificado-ANBIMA-Edu-Azul-Lado-Esquerdo.png " width="450" height="300px" alt="Imagem da microcertificação" title="badgeName" class="imageMobile"></center></td>
+					<td width="300px" align="center" style="line-height:0px; font-size:0px; margin:0px;"><center><img src="https://www.anbima.com.br/data/files/80/81/38/07/287E7810F8A36978EA2BA2A8/Badge-Transparente.png" width="300" height="auto" alt="Imagem da badge conquistada" title="badgeName" class="imageMobile"></center></td>
+					<td width="450px" align="center" style="line-height:0px; font-size:0px; margin:0px;"><center><img src="https://www.anbima.com.br/data/files/D5/93/26/82/987E7810F8A36978EA2BA2A8/Certificado-ANBIMA-Edu-Azul-Lado-Direito.png" width="450" height="300px" alt="Imagem da microcertificação" title="badgeName" class="imageMobile"></center></td>
+				</tr>
+			</table>
+			<table height="40px" border="0" cellspacing="0" cellpadding="0" align="center">
+				<tr>
+					<td align="center" style="line-height:0px; font-size:0px; margin:0px;"><img src="https://www.anbima.com.br/data/files/9F/E2/D6/42/4C7E7810F8A36978EA2BA2A8/_pixel.png" width="15" height="40px" alt=""></td>
+				</tr>
+			</table>
+			<table height="30px" border="0" cellspacing="0" cellpadding="0" align="center">
+				<tr>
+					<td align="center" style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size:22px; line-height:normal; color:#FFFFFF;">
+						Emissão: <strong>{{certificateGenerationDate}}</strong> | Carga horária: <strong>{{workload}}</strong>
+					</td>
+				</tr>
+			</table>
+			<table width="100%" height="30px" border="0" cellspacing="0" cellpadding="0" align="center">
+				<tr>
+					<td align="center" style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size:15px; line-height:24px; color:#FFFFFF;-ms-text-size-adjust:none;-webkit-text-size-adjust:none; text-align:center;mso-line-height-rule: exactly;">Número do certificado: <strong>{{certificateId}}</strong>
+					</td>
+				</tr>
+			</table>
+			<table border="0" cellspacing="0" cellpadding="0" align="center">
+				<tr>
+					<td align="center" style="line-height:0px; font-size:0px; margin:0px;"><img src="https://www.anbima.com.br/data/files/9F/E2/D6/42/4C7E7810F8A36978EA2BA2A8/_pixel.png" width="15" height="10" alt=""></td>
+				</tr>
+			</table>
+			<table height="145px" border="0" cellspacing="0" cellpadding="0" align="center">
+				<tr>
+					<td align="center" style="line-height:0px; font-size:0px; margin:0px;"><a href="https://www.anbimaedu.com.br/" target="_blank"><img src="https://www.anbima.com.br/data/files/9B/42/6D/DC/487E7810F8A36978EA2BA2A8/Certificado-ANBIMA-Edu-Azul-Logo-ANBIMA-Edu-ANBIMA-transparente.png" width="300px" height="145px" alt="Logo da ANBIMA e do ANBIMA Edu" title="ANBIMA"></a></td>
+				</tr>
+			</table>
+			<table height="10px" border="0" cellspacing="0" cellpadding="0" align="center">
+				<tr>
+					<td align="center" style="line-height:0px; font-size:0px; margin:0px;"><img src="https://www.anbima.com.br/data/files/9F/E2/D6/42/4C7E7810F8A36978EA2BA2A8/_pixel.png" width="100%" height="10px" alt=""></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table></div></center>
+</body>
 </html>
