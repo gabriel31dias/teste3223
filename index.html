@@ -1,94 +1,170 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width" />
 <title>ANBIMA Edu - Certificação de Conclusão</title>
 <style type="text/css">
-{
-	font-family: Calibri, Arial, Helvetica, sans-serif;
-}
-	p{font-family: Calibri, Arial, Helvetica, sans-serif; color: #ffffff;}
-	
-</style>
+       {
+        font-family: Calibri, Arial, Helvetica, sans-serif;
+      }
+      p {
+        font-family: Calibri, Arial, Helvetica, sans-serif;
+        color: #ffffff;
+      }
+    </style>
 </head>
 <body>
-	<center>
+<center>
 <div>
-<table border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#00b1d3;" style="background-color: #00b1d3;">
-  	<tr>
-    	<td valign="top" style="line-height:0px; font-size:0px; margin:0px;">
-			<table height="150px" border="0" cellspacing="0" cellpadding="0" align="center">
-				<tr>
-					<td align="center" style="line-height:0px; font-size:0px; margin:0px;"><img src="https://www.anbima.com.br/data/files/9F/E2/D6/42/4C7E7810F8A36978EA2BA2A8/_pixel.png" height="150px"></td>
-				</tr>
-			</table>
-			<table height="83px;" border="0" cellspacing="0" cellpadding="0" align="center">
-				<tr>
-					<td align="center"><br/><br/><p style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size:30px; line-height:normal; color:#FFFFFF;">Parabéns,<br /> <font style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size:35px; line-height:normal; color:#FFFFFF;"><strong>{{username}}</strong>.</font></p>
-					</td>
-				</tr>
-			</table>
-			<table height="10px" border="0" cellspacing="0" cellpadding="0" align="center">
-				<tr>
-					<td align="center" style="line-height:0px; font-size:0px; margin:0px;"><img src="https://www.anbima.com.br/data/files/9F/E2/D6/42/4C7E7810F8A36978EA2BA2A8/_pixel.png" width="15" height="10px" alt=""></td>
-				</tr>
-			</table>
-					<table height="82px" border="0" cellspacing="0" cellpadding="0" align="center">
-				<tr>
-					<td align="center" style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size:30px; line-height:30px; line-height:normal; color:#FFFFFF;">Você conquistou a badge da microcertificação:&nbsp; &nbsp; <br class="hideThis">
-						<strong style="font-size: 35px; line-height:normal; color:#FFFFFF;">{{badgeName}.</strong>
-					</td>
-				</tr>
-			</table>
-			<table height="40px" border="0" cellspacing="0" cellpadding="0" align="center">
-				<tr>
-					<td align="center" style="line-height:0px; font-size:0px; margin:0px;"><img src="https://www.anbima.com.br/data/files/9F/E2/D6/42/4C7E7810F8A36978EA2BA2A8/_pixel.png" width="15" height="40" alt=""></td>
-				</tr>
-			</table>
-			<table height="300px" border="0" cellspacing="0" cellpadding="0" align="center">
-				<tr>
-					<td width="450px" align="center" style="line-height:0px; font-size:0px; margin:0px;"><center><img src="https://www.anbima.com.br/data/files/F7/93/78/82/987E7810F8A36978EA2BA2A8/Certificado-ANBIMA-Edu-Azul-Lado-Esquerdo.png " width="450" height="300px" alt="Imagem da microcertificação" title="badgeName" class="imageMobile"></center></td>
-					<td width="300px" align="center" style="line-height:0px; font-size:0px; margin:0px;"><center><img src="https://www.anbima.com.br/data/files/80/81/38/07/287E7810F8A36978EA2BA2A8/Badge-Transparente.png" width="300" height="auto" alt="Imagem da badge conquistada" title="badgeName" class="imageMobile"></center></td>
-					<td width="450px" align="center" style="line-height:0px; font-size:0px; margin:0px;"><center><img src="https://www.anbima.com.br/data/files/D5/93/26/82/987E7810F8A36978EA2BA2A8/Certificado-ANBIMA-Edu-Azul-Lado-Direito.png" width="450" height="300px" alt="Imagem da microcertificação" title="badgeName" class="imageMobile"></center></td>
-				</tr>
-			</table>
-			<table height="40px" border="0" cellspacing="0" cellpadding="0" align="center">
-				<tr>
-					<td align="center" style="line-height:0px; font-size:0px; margin:0px;"><img src="https://www.anbima.com.br/data/files/9F/E2/D6/42/4C7E7810F8A36978EA2BA2A8/_pixel.png" width="15" height="40px" alt=""></td>
-				</tr>
-			</table>
-			<table height="30px" border="0" cellspacing="0" cellpadding="0" align="center">
-				<tr>
-					<td align="center" style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size:22px; line-height:normal; color:#FFFFFF;">
-						Emissão: <strong>{{certificateGenerationDate}}</strong> | Carga horária: <strong>{{workload}}</strong>
-					</td>
-				</tr>
-			</table>
-			<table width="100%" height="30px" border="0" cellspacing="0" cellpadding="0" align="center">
-				<tr>
-					<td align="center" style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size:15px; line-height:24px; color:#FFFFFF;-ms-text-size-adjust:none;-webkit-text-size-adjust:none; text-align:center;mso-line-height-rule: exactly;">Número do certificado: <strong>{{certificateId}}</strong>
-					</td>
-				</tr>
-			</table>
-			<table border="0" cellspacing="0" cellpadding="0" align="center">
-				<tr>
-					<td align="center" style="line-height:0px; font-size:0px; margin:0px;"><img src="https://www.anbima.com.br/data/files/9F/E2/D6/42/4C7E7810F8A36978EA2BA2A8/_pixel.png" width="15" height="10" alt=""></td>
-				</tr>
-			</table>
-			<table height="145px" border="0" cellspacing="0" cellpadding="0" align="center">
-				<tr>
-					<td align="center" style="line-height:0px; font-size:0px; margin:0px;"><a href="https://www.anbimaedu.com.br/" target="_blank"><img src="https://www.anbima.com.br/data/files/9B/42/6D/DC/487E7810F8A36978EA2BA2A8/Certificado-ANBIMA-Edu-Azul-Logo-ANBIMA-Edu-ANBIMA-transparente.png" width="300px" height="145px" alt="Logo da ANBIMA e do ANBIMA Edu" title="ANBIMA"></a></td>
-				</tr>
-			</table>
-			<table height="10px" border="0" cellspacing="0" cellpadding="0" align="center">
-				<tr>
-					<td align="center" style="line-height:0px; font-size:0px; margin:0px;"><img src="https://www.anbima.com.br/data/files/9F/E2/D6/42/4C7E7810F8A36978EA2BA2A8/_pixel.png" width="100%" height="10px" alt=""></td>
-				</tr>
-			</table>
-		</td>
-	</tr>
-</table></div></center>
+<table border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#00b1d3;" style="background-color: #00b1d3">
+<tr>
+<td valign="top" style="line-height: 0px; font-size: 0px; margin: 0px">
+<table height="150px" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr>
+<td align="center" style="line-height: 0px; font-size: 0px; margin: 0px">
+<img src="https://www.anbima.com.br/data/files/9F/E2/D6/42/4C7E7810F8A36978EA2BA2A8/_pixel.png" height="150px" />
+</td>
+</tr>
+</table>
+<table height="83px;" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr>
+<td align="center">
+<br/><br/>
+<p style="
+                        font-family: Calibri, Arial, Helvetica, sans-serif;
+                        font-size: 30px;
+                        line-height: normal;
+                        color: #ffffff;
+                      ">
+Parabéns,<br/>
+<font style="
+                          font-family: Calibri, Arial, Helvetica, sans-serif;
+                          font-size: 35px;
+                          line-height: normal;
+                          color: #ffffff;
+                        "><strong>{{username}}</strong>.</font
+                      >
+</p>
+</td>
+</tr>
+</table>
+<table height="10px" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr>
+<td align="center" style="line-height: 0px; font-size: 0px; margin: 0px">
+<img src="https://www.anbima.com.br/data/files/9F/E2/D6/42/4C7E7810F8A36978EA2BA2A8/_pixel.png" width="15" height="10px" alt />
+</td>
+</tr>
+</table>
+<table height="82px" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr>
+<td align="center" style="
+                      font-family: Calibri, Arial, Helvetica, sans-serif;
+                      font-size: 30px;
+                      line-height: 30px;
+                      line-height: normal;
+                      color: #ffffff;
+                    ">
+Você conquistou a badge da microcertificação:&nbsp; &nbsp;
+<br class="hideThis" />
+<strong style="
+                        font-size: 35px;
+                        line-height: normal;
+                        color: #ffffff;
+                      ">{{badgeName}}.</strong
+                    >
+</td>
+</tr>
+</table>
+<table height="40px" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr>
+<td align="center" style="line-height: 0px; font-size: 0px; margin: 0px">
+<img src="https://www.anbima.com.br/data/files/9F/E2/D6/42/4C7E7810F8A36978EA2BA2A8/_pixel.png" width="15" height="40" alt />
+</td>
+</tr>
+</table>
+<table height="300px" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr>
+<td width="450px" align="center" style="line-height: 0px; font-size: 0px; margin: 0px">
+<center>
+<img src="https://www.anbima.com.br/data/files/F7/93/78/82/987E7810F8A36978EA2BA2A8/Certificado-ANBIMA-Edu-Azul-Lado-Esquerdo.png " width="450" height="300px" alt="Imagem da microcertificação" title="badgeName" class="imageMobile" />
+</center>
+</td>
+<td width="300px" align="center" style="line-height: 0px; font-size: 0px; margin: 0px">
+<center>
+<img src="{{imageBadge}}" width="300" height="auto" alt="Imagem da badge conquistada" title="badgeName" class="imageMobile" />
+</center>
+</td>
+<td width="450px" align="center" style="line-height: 0px; font-size: 0px; margin: 0px">
+<center>
+<img src="https://www.anbima.com.br/data/files/D5/93/26/82/987E7810F8A36978EA2BA2A8/Certificado-ANBIMA-Edu-Azul-Lado-Direito.png" width="450" height="300px" alt="Imagem da microcertificação" title="badgeName" class="imageMobile" />
+</center>
+</td>
+</tr>
+</table>
+<table height="40px" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr>
+<td align="center" style="line-height: 0px; font-size: 0px; margin: 0px">
+<img src="https://www.anbima.com.br/data/files/9F/E2/D6/42/4C7E7810F8A36978EA2BA2A8/_pixel.png" width="15" height="40px" alt />
+</td>
+</tr>
+</table>
+<table height="30px" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr>
+<td align="center" style="
+                      font-family: Calibri, Arial, Helvetica, sans-serif;
+                      font-size: 22px;
+                      line-height: normal;
+                      color: #ffffff;
+                    ">
+Emissão: <strong>{{certificateGenerationDate}}</strong> |
+Carga horária: <strong>{{workload}}</strong>
+</td>
+</tr>
+</table>
+<table width="100%" height="30px" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr>
+<td align="center" style="
+                      font-family: Calibri, Arial, Helvetica, sans-serif;
+                      font-size: 15px;
+                      line-height: 24px;
+                      color: #ffffff;
+                      -ms-text-size-adjust: none;
+                      -webkit-text-size-adjust: none;
+                      text-align: center;
+                      mso-line-height-rule: exactly;
+                    ">
+ID do certificado: <strong>{{certificateId}}</strong>
+</td>
+</tr>
+</table>
+<table border="0" cellspacing="0" cellpadding="0" align="center">
+<tr>
+<td align="center" style="line-height: 0px; font-size: 0px; margin: 0px">
+<img src="https://www.anbima.com.br/data/files/9F/E2/D6/42/4C7E7810F8A36978EA2BA2A8/_pixel.png" width="15" height="10" alt />
+</td>
+</tr>
+</table>
+<table height="145px" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr>
+<td align="center" style="line-height: 0px; font-size: 0px; margin: 0px">
+<a href="https://www.anbima.com.br/" target="_blank"><img src="https://www.anbima.com.br/data/files/9B/42/6D/DC/487E7810F8A36978EA2BA2A8/Certificado-ANBIMA-Edu-Azul-Logo-ANBIMA-Edu-ANBIMA-transparente.png" width="300px" height="145px" alt="Logo da ANBIMA e do ANBIMA Edu" title="ANBIMA" /></a>
+</td>
+</tr>
+</table>
+<table height="10px" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr>
+<td align="center" style="line-height: 0px; font-size: 0px; margin: 0px">
+<img src="https://www.anbima.com.br/data/files/9F/E2/D6/42/4C7E7810F8A36978EA2BA2A8/_pixel.png" width="100%" height="10px" alt />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</center>
 </body>
 </html>
